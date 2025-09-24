@@ -48,7 +48,7 @@ MongoDB
 # Backend will run on:
   👉 http://localhost:8000  
 
-# Frontend run development server:
+# Run frontend development server:
   npm run dev  
 
 # Frontend will run on:
