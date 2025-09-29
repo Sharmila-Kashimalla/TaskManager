@@ -95,6 +95,7 @@ def mark_completed(task_id: str):
     if updated.matched_count == 0:
         raise HTTPException(status_code=404, detail="Task not found")
     updated_task = collection.find_one({"_id": ObjectId(task_id)})
+    # return task
     return task_serializer(updated_task)
 
 # Delete Task
